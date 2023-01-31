@@ -3,8 +3,8 @@ import * as THREE from "three";
 class Atlas3D {
   constructor(container) {
     this.container = container;
-    this.scene = THREE.Scene();
-    this.camera = THREE.PerspectiveCamera(
+    this.scene = new THREE.Scene();
+    this.camera = new THREE.PerspectiveCamera(
       75,
       window.innerWidth,
       window.innerHeight,
