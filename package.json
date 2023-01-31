@@ -1,0 +1,20 @@
+{
+  "name": "atlas3d",
+  "version": "1.0.0",
+  "description": "Atlas3D is a powerful and user-friendly npm library for creating interactive 3D maps in real-time. Built for use with popular JavaScript frameworks such as React and Angular, Atlas3D makes it easy to generate 3D maps of any location in the world. With its clean architecture and wide range of features, including real-time weather data, Atlas3D is the perfect tool for developers looking to build engaging and dynamic map-based applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3d",
+    "map",
+    "atlas",
+    "atlas3d"
+  ],
+  "author": "Bruno Costa",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.149.0"
+  }
+}
